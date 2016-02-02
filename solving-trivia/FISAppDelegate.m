@@ -6,6 +6,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
     return YES;
 }
 
@@ -59,7 +60,8 @@
                                             @"Washington" : @"Olympia",
                                             @"West Virginia" : @"Charleston",
                                             @"Wisconsin" : @"Madison",
-                                            @"Wyoming" : @"Cheyenne" };
+                                            @"Wyoming" : @"Cheyenne"
+                                        };
     
     NSString *state = @"";
     
